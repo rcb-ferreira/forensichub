@@ -809,26 +809,31 @@ section {
 /*--------------------------------------------------------------
 # About Us
 --------------------------------------------------------------*/
+.services .content h3,
 .about .content h3 {
   font-weight: 600;
   font-size: 26px;
 }
 
+.services .content ul,
 .about .content ul {
   list-style: none;
   padding: 0;
 }
 
+.services .content ul li,
 .about .content ul li {
   padding-bottom: 10px;
 }
 
+.services .content ul i,
 .about .content ul i {
   font-size: 20px;
   padding-right: 4px;
   color: #bf3228;
 }
 
+.services .content p:last-child,
 .about .content p:last-child {
   margin-bottom: 0;
 }
